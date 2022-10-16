@@ -1,11 +1,11 @@
 package com.avirup.petclinicdata.services.map;
 
 import com.avirup.petclinicdata.model.Vet;
-import com.avirup.petclinicdata.services.CrudService;
+import com.avirup.petclinicdata.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 
     @Override
